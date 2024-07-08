@@ -1,0 +1,110 @@
+.contact-us-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 20px; /* Gap between columns */
+    margin: 0 auto; /* Center align horizontally */
+   
+  }
+  
+  .image-container {
+    grid-column: 1 / 2; /* Image container spans first column */
+    grid-row: 1; /* Image container in first row */
+  }
+  
+  .image-container img {
+    max-width: 100%; /* Ensure image fits container */
+    display: block; /* Prevents unwanted space beneath image */
+  }
+  
+  .form-container {
+    grid-column: 2 / 3; /* Form container spans second column */
+    grid-row: 1; /* Form container in first row */
+  }
+  
+  form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  form h2 {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  select,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button[type="submit"] {
+    width: 50%; /* Set a smaller width for the button */
+    padding: 8px; /* Adjust padding as needed */
+    background-color: #3e2780;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px; /* Reduce font size for smaller button */
+    margin: 0 auto; /* Center the button horizontally */
+    align-items: center;
+  }
+  button:hover {
+    background-color: #3e2780;
+  }
+  .support-options-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+  }
+  
+  .support-option {
+    text-align: center;
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;
+  }
+  
+  
+  
+ 
+  
+  .support-option button:hover {
+    background-color: #3e2780;
+  }
+  
+  /* Add margin between each support-option */
+  .support-option + .support-option {
+    margin-left: 10%; /* Adjust as needed */
+  }
+  
+  
+
+  /* Media query for mobile devices */
+  @media (max-width: 768px) {
+    .contact-us-container {
+      grid-template-columns: 1fr; /* Single column layout for mobile */
+    }
+  
+    .form-container {
+      grid-column: 1 / 2; /* Form container spans full width */
+      grid-row: 2; /* Form container in second row */
+    }
+  }
+ 

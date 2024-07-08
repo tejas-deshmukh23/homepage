@@ -1,0 +1,10 @@
+.scoreItem h2{
+    color: #3e2780;
+    font-weight: bold;
+    font-size: 65px;
+   margin-left: 35%;
+}
+.scoreItem img{
+   margin-left: 38%;
+   padding-top: 3%;
+}

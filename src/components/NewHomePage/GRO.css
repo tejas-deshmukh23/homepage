@@ -1,0 +1,84 @@
+body {
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    margin: 0; /* Remove default body margin */
+}
+
+.gro-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 1200px; /* Adjust max width as needed */
+    margin: 0 auto; /* Center align horizontally */
+    padding: 20px; /* Add padding for spacing */
+}
+
+.text-content-gro {
+    width: 100%;
+    padding: 20px;
+    max-width: 100%; /* Adjust as needed */
+    margin-bottom: 20px; /* Space between text and image */
+    text-align: left;
+}
+
+.content-of-gro span,
+.content-of-gro1 span {
+    font-size: 20px;
+    color: #343a40;
+}
+
+.text-part-gro {
+    padding: 20px;
+    text-align: left;
+}
+
+.text-part-gro h2 {
+    color: #3e2780;
+    padding-left: 20px;
+}
+
+.text-part-gro p {
+    padding: 20px;
+    font-size: 20px;
+}
+
+.image-section {
+    width: 100%;
+    max-width: 800px; /* Adjust max width as needed */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (min-width: 768px) {
+    .gro-container {
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: left;
+    }
+
+    .text-content-gro {
+        width: 55%; /* Adjust width as needed */
+        margin-bottom: 0;
+    }
+
+    .image-section {
+        width: 45%; /* Adjust width as needed */
+    }
+
+    .text-part-gro p {
+        padding: 20px;
+        font-size: 20px;
+    }
+
+    .text-part-gro h2 {
+        font-size: 50px;
+    }
+
+    .content-of-gro span,
+    .content-of-gro1 span {
+        font-size: 30px;
+    }
+}
