@@ -1,0 +1,65 @@
+.firstcomp{
+    padding: 5%;
+}
+
+.firstcomp h3{
+    text-align: center; /* Center align content */
+    padding-bottom: 10px;
+  }
+  .citynumbers{
+    padding-left: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .number-container {
+    display: flex; /* Use flexbox for number layout */
+    align-items: center; /* Center align number vertically */
+    margin-bottom: 10px; /* Space between each number and text */
+  }
+  
+  .numberc {
+    display: inline-block;
+    text-align: center;
+    color: white;
+    background-color: #3e2780;
+    height: 40px;
+    width: 40px;
+    line-height: 40px; /* Vertically center number */
+    border-radius: 50%;
+    margin-right: 10px; /* Space between number and text */
+    font-size: 20px; /* Adjust font size of numbers */
+  }
+  
+  .number-container p {
+    margin: 0; /* Remove default margin of paragraphs */
+    font-size: 28px; /* Adjust font size of text */
+  }
+  @media  (max-width: 768px){
+    .firstcomp{
+      padding: 5%;
+  }
+    .numberc {
+      display: inline-block;
+      text-align: center;
+      align-content: center;
+      color: white;
+      background-color: #3e2780;
+      height: 30px;
+      width: 30px;
+      line-height: 30px; /* Vertically center number */
+      border-radius: 50%;
+      margin-right: 10px; /* Space between number and text */
+      font-size: 15px; /* Adjust font size of numbers */
+    }
+    
+    .number-container p {
+      margin: 0; /* Remove default margin of paragraphs */
+      font-size: 16px; /* Adjust font size of text */
+    }
+    .citynumbers{
+      padding-left: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+  }
+  

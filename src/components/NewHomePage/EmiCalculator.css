@@ -64,7 +64,7 @@
     align-items: flex-start;
     flex-wrap: wrap; /* Allow elements to wrap to the next line if necessary */
     gap: 20px; /* Spacing between flex items */
-    margin-top: -10%; /* Space between the calculator and additional content */
+    margin-top: 5%; /* Space between the calculator and additional content */
     margin-left: 5%;
     width: 90%; /* Ensure full width of the container */
     padding: 20px; /* Add padding around the container */

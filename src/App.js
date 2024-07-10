@@ -12,6 +12,11 @@ import Allpartner from './components/NewHomePage/AllPartners';
 import EmiCalculator from './components/NewHomePage/EmiCalculator';
 import CreditScoreForm from './components/NewHomePage/CreditScoreForm';
 import TechnicalErrorPage from './components/NewHomePage/TechnicalErrorPage';
+import CityPage from './components/NewHomePage/CityPage';
+import MoreInformation from './components/NewHomePage/MoreInformation';
+import SecondLast from './components/NewHomePage/SecondLast';
+import CityPages from './components/NewHomePage/CityPages';
+import NewPersonalLoanProduct from './components/NewHomePage/NewPersonalLoanProduct';
 
 function App() {
   return (
@@ -28,6 +33,11 @@ function App() {
         <Route path="/emic" element={<EmiCalculator/>}/>
         <Route path="/creditscore" element={<CreditScoreForm/>}/>
         <Route path='/technicalerror' element={<TechnicalErrorPage/>}/>
+        <Route path='/citypage' element={<CityPage/>}/>
+        <Route path='/moreinfo' element={<MoreInformation/>}/>
+        <Route path='/secondlast' element={<SecondLast/>}/>
+        <Route path='/citypages' element={<CityPages/>}/>
+        <Route path='/newploanproduct' element={<NewPersonalLoanProduct/>}/>
       </Routes>
     </Router>
   );
